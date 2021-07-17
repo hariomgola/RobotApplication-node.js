@@ -1,0 +1,25 @@
+{
+  "name": "robotapplication-node",
+  "version": "1.0.0",
+  "description": "This is Robot Application",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hariomgola/RobotApplication-node.js.git"
+  },
+  "author": "hariom gola",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hariomgola/RobotApplication-node.js/issues"
+  },
+  "homepage": "https://github.com/hariomgola/RobotApplication-node.js#readme",
+  "dependencies": {
+    "chalk": "^4.1.1",
+    "node-gyp": "^8.1.0",
+    "robotjs": "^0.6.0",
+    "typescript": "^4.3.5"
+  }
+}
