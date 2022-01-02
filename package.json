@@ -1,11 +1,11 @@
 {
-  "name": "robotapplication-node",
+  "name": "hionline",
   "version": "1.0.0",
   "description": "This is Robot Application",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node src/app.js"
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",
@@ -20,6 +20,7 @@
   "dependencies": {
     "chalk": "^4.1.1",
     "node-gyp": "^8.1.0",
+    "python": "0.0.4",
     "robotjs": "^0.6.0",
     "typescript": "^4.3.5"
   }
