@@ -1,17 +1,22 @@
 {
-  "name": "hionline",
+  "name": "robotonline",
   "version": "1.0.0",
   "description": "This is Robot Application",
   "main": "app.js",
+  "bin": {
+    "robotonline": "./app.js"
+  },
   "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app.js"
+    "pub": "npm version minor & npm publish"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/hariomgola/RobotApplication-node.js.git"
   },
-  "author": "hariom gola",
+  "author": "hariom gola <hi@hariomgola.com> (https://hariomgola.github.io)",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/hariomgola/RobotApplication-node.js/issues"
@@ -23,5 +28,8 @@
     "python": "0.0.4",
     "robotjs": "^0.6.0",
     "typescript": "^4.3.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
   }
 }
